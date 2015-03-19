@@ -1,10 +1,4 @@
-###########################################
-#
-# Dockerfile creating image for wordpress with mcrypt
-#
-###########################################
-
-FROM wordpress:4.1.1
+FROM wordpress:latest
 MAINTAINER Jan Suchotzki <jan@suchotzki.de>
 
 # Install mcrypt
